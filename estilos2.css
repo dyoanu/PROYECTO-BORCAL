@@ -93,9 +93,20 @@ main{
 
 }
 
+
+.descripcion{
+    width: 100%;
+    text-align: center;
+    background-color: var(--relleno);
+    color: var(--letras);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 7px 0 7px 0;
+}
+
 .items{
     /* background-color: aquamarine; */
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -114,7 +125,6 @@ main{
     width: 70%;
     border-radius: 10px;
 }
-
 
 
 /* Pie -------------------------------------------------------------- */
