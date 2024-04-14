@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+:root{
+    --letras: yellow;
+    --background: black;
+    --parrafos: white;
+    --relleno: grey;
+}
+
+/* Encabezado ----------------------------------------------------- */
+
+nav{
+    background-color: var(--background);
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+.boton{
+    text-decoration: none;
+    width: 20%;
+    padding: 1rem;
+    font-size: medium; 
+    font-weight: bold;
+    color: var(--letras);
+    background-color: var(--background); 
+}
+
+.boton:hover{
+    color: var(--relleno);
+    background-color: var(--letras);
+}
+
+#td1{
+    /* background-color: antiquewhite; */
+    width: 20%;
+    
+}
+
+#td2{
+    /* background-color: aquamarine; */
+    width: 80%;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .boton{
+        padding: 0.5rem;
+        font-size: small;
+
+    }
+
+    #td1{
+        width: 15%;
+    }
+
+    .tabla-footer{
+   
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .boton{
+        padding: 0.25rem;
+        font-size: x-small;
+
+    }
+
+}
+
+/* Cuerpo --------------------------------------------------------- */
+
+main{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+/* Pie -------------------------------------------------------------- */
+
+footer{
+    background-color: var(--background);
+    color: var(--parrafos);
+    font-size: small;
+    padding: 20px;
+}
+
+.tabla-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.redes{
+    text-align: center;
+    color: var(--parrafos);
+    margin-inline: 10px;
+}
+
+.redes:hover{
+    color: var(--letras);
+}
