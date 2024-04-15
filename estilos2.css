@@ -114,17 +114,30 @@ main{
 .zapato{
     width: 70%;
     border-radius: 10px;
+    border-style: groove;
 
 }
 
 .botin{
     width: 70%;
     border-radius: 10px;
+    border-style: groove;
 }
 
 .bota{
     width: 70%;
     border-radius: 10px;
+    border-style: groove;
+}
+
+.triptico{
+    width: 100%;
+    background-color: grey;
+
+}
+
+.triptico td{
+    text-align: center;
 }
 
 #sobre{
@@ -135,7 +148,6 @@ main{
     bottom: 10%;
 
 }
-
 
 
 /* Pie -------------------------------------------------------------- */
