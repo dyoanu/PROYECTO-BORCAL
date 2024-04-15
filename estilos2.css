@@ -130,14 +130,19 @@ main{
     border-style: groove;
 }
 
-.triptico{
-    width: 100%;
+.certificado{
+    width: 70%;
     background-color: grey;
+    border-radius: 20px;
 
 }
 
-.triptico td{
+.certificado td{
     text-align: center;
+}
+
+.descarga{
+    margin-inline: 30px;
 }
 
 #sobre{
