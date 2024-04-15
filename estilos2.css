@@ -130,20 +130,22 @@ main{
     border-style: groove;
 }
 
-.certificado{
-    width: 70%;
-    background-color: grey;
-    border-radius: 20px;
-
-}
-
-.certificado td{
-    text-align: center;
-}
-
 .descarga{
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.377);
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+
+.icono-descarga{
     margin-inline: 30px;
 }
+
+.icono-descarga:hover{
+    color: yellow;
+}
+
 
 #sobre{
     position: fixed;
