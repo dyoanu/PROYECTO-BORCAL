@@ -115,3 +115,7 @@ footer{
 .redes:hover{
     color: var(--letras);
 }
+
+i{
+    margin-bottom: 20px;
+}
