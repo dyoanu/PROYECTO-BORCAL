@@ -40,11 +40,7 @@ table{
     background-color: var(--letras);
 }
 
-#td1{
-    /* background-color: antiquewhite; */
-    /* width: 20%; */
-    
-}
+
 
 #td2{
     /* background-color: aquamarine; */
@@ -109,11 +105,13 @@ main{
     border-style: groove;
 }
 
+
 .descarga{
     width: 50%;
     background-color: rgba(128, 128, 128, 0.377);
     border-radius: 10px;
     margin-left: 25%;
+    
 }
 
 
@@ -174,8 +172,12 @@ footer{
     }
 
     .descarga{
-        width: 100%;
-        margin: 0%;
+        width: 60%;
+        margin-left: 25%;
+    }
+
+    .tabla-footer{
+        flex-direction: column;
     }
 
     #td1{
@@ -188,7 +190,6 @@ footer{
     }
 
 
-
 }
 
 @media screen and (max-width: 767px) {
@@ -199,8 +200,12 @@ footer{
     }
 
     .descarga{
-        width: 100%;
-        margin: 0%;
+        width: 75%;
+        margin-left: 15%;
+    }
+
+    .tabla-footer{
+        flex-direction: column;
     }
 
     #td1{
