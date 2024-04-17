@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+:root{
+    --letras: yellow;
+    --background: black;
+    --parrafos: white;
+    --relleno: grey;
+}
+
+/* Encabezado ----------------------------------------------------- */
+
+nav{
+    background-color: var(--background);
+    padding-bottom: 0.5%;
+    width: 100%;
+
+}
+
+.boton{
+    text-decoration: none;
+    width: 20%;
+    padding: 1rem;
+    font-size: medium; 
+    font-weight: bold;
+    color: var(--letras);
+    background-color: var(--background); 
+}
+
+.boton:hover{
+    color: var(--relleno);
+    background-color: var(--letras);
+}
+
+
+#tabla-header{
+    width: 100%;
+    text-align: center;
+}
+
+#td2{
+    /* background-color: aquamarine; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+
+}
+
+/* Cuerpo --------------------------------------------------------- */
+
+main{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    align-items: center;
+
+}
+
+
+.descripcion{
+    width: 90%;
+    background-color: var(--relleno);
+    color: var(--letras);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.items{
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 10px;
+    margin-right: 15%;
+
+}
+
+.imagen{
+    width: 70%;
+    border-radius: 10px;
+    border-style: groove;
+
+}
+
+.botin{
+    width: 70%;
+    border-radius: 10px;
+    border-style: groove;
+}
+
+.bota{
+    width: 70%;
+    border-radius: 10px;
+    border-style: groove;
+}
+
+
+.descarga{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.377);
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+
+
+.icono-descarga{
+    margin-inline: 30px;
+}
+
+.icono-descarga:hover{
+    color: yellow;
+}
+
+
+#sobre{
+    position: fixed;
+    background-color: transparent;
+    margin: 5px;
+    right: 1%;
+    bottom: 10%;
+
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+
+/* Pie -------------------------------------------------------------- */
+
+footer{
+    background-color: var(--background);
+    color: var(--parrafos);
+    font-size: small;
+    padding: 20px;
+}
+
+.tabla-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.redes{
+    text-align: center;
+    color: var(--parrafos);
+    margin-inline: 10px;
+}
+
+.redes:hover{
+    color: var(--letras);
+}
+
+/* cortes --------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .boton{
+        padding: 0.5%;
+        font-size: small;
+        width: 90%;
+
+    }
+
+    .descarga{
+        width: 60%;
+        margin-left: 25%;
+    }
+
+    .tabla-footer{
+        flex-direction: column;
+    }
+
+    #td1{
+       width: 40%; 
+    }
+
+    #td2{
+        flex-direction: column;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .boton{
+        padding: 0.25%;
+        font-size: x-small;
+        width: 90%;
+    }
+
+    .descarga{
+        width: 75%;
+        margin-left: 15%;
+    }
+
+    .tabla-footer{
+        flex-direction: column;
+    }
+
+    #td1{
+        width: 40%; 
+     }
+
+    #td2{
+        flex-direction: column;
+        
+    }
+
+}
