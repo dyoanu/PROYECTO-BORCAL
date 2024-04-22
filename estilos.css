@@ -41,18 +41,13 @@ nav{
 
 
 #tabla-header{
-    width: 100%;
-    /* background-color: transparent; */
 
-}
-
-#td2{
-    /* background-color: aquamarine; */
-    /* width: 100%; */
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
-
 }
+
+
 
 /* Cuerpo --------------------------------------------------------- */
 
@@ -141,7 +136,7 @@ footer{
     }
 
 
-    #td2{
+    #tabla-header{
         flex-direction: column;
         align-items: flex-end;
 
@@ -164,7 +159,7 @@ footer{
     }
 
 
-    #td2{
+    #tabla-header{
         flex-direction: column;
         align-items: flex-end;
 
