@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+:root{
+    --letras: yellow;
+    --background: black;
+    --parrafos: white;
+    --relleno: grey;
+}
+
+/* Encabezado ----------------------------------------------------- */
+
+nav{
+    position: fixed;
+    z-index: 999999;
+    background-color: transparent;
+    padding-bottom: 0.5%;
+    width: 100%;
+
+}
+
+.boton{
+
+    width: 15%;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: var(--background);
+
+}
+
+
+.boton:hover{
+    color: var(--relleno);
+    background-color: var(--letras);
+}
+
+
+#tabla-header{
+    width: 100%;
+    /* background-color: transparent; */
+
+}
+
+#td2{
+    /* background-color: aquamarine; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+/* Cuerpo --------------------------------------------------------- */
+
+main{
+    background-color: var(--background);
+    /* background-image: url(./img/Fondos/black-background-with-fabric-texture.jpg); */
+    background-size: cover;
+}
+
+
+
+#banner{
+    background-image: url(img/APAISADA.jpg);
+    background-size: cover;
+    height: 400px;
+    color: yellow;
+    /* font-weight: bold; */
+    display: flex;
+    align-items: center;
+
+
+}
+
+#imagen-banner{
+    padding-left: 2%;
+}
+
+
+#sobre{
+    position: fixed;
+    background-color: transparent;
+    margin: 5px;
+    right: 1%;
+    bottom: 10%;
+
+}
+
+i:hover{
+    color: yellow;
+}
+
+
+
+/* Pie -------------------------------------------------------------- */
+
+footer{
+    /* background-color: var(--background); */
+    background-image: url(./img/Fondos/black-background-with-fabric-texture.jpg);
+    background-size: cover;
+    color: var(--parrafos);
+    font-size: small;
+    padding: 20px;
+}
+
+.tabla-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.redes{
+    text-align: center;
+    color: var(--parrafos);
+    margin-inline: 10px;
+}
+
+.redes:hover{
+    color: var(--letras);
+}
+
+/* cortes --------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .boton{
+        padding: 3px;
+        font-size: small;
+        width: 200px;
+
+    }
+
+
+    .tabla-footer{
+        flex-direction: column;
+    }
+
+
+    #td2{
+        flex-direction: column;
+        align-items: flex-end;
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .boton{
+        padding: 2px;
+        font-size: small;
+        min-width: 200px;
+    }
+
+
+    .tabla-footer{
+        flex-direction: column;
+    }
+
+
+    #td2{
+        flex-direction: column;
+        align-items: flex-end;
+
+    }
+
+}
