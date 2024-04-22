@@ -22,9 +22,14 @@ nav{
 
 }
 
+#tabla-header > a{
+    width: 15%;
+
+}
+
 .boton{
 
-    width: 15%;
+    width: 100%;
     padding: 1rem;
     font-size: medium;
     font-weight: bold;
@@ -41,7 +46,6 @@ nav{
 
 
 #tabla-header{
-
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -123,10 +127,15 @@ footer{
 /* cortes --------------------------------------- */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+
+    #tabla-header > a{
+        width: 200px;
+    }
+
     .boton{
         padding: 3px;
         font-size: small;
-        width: 200px;
 
     }
 
@@ -147,10 +156,15 @@ footer{
 }
 
 @media screen and (max-width: 767px) {
+    
+    #tabla-header > a{
+        width: 200px;
+    }
+
     .boton{
-        padding: 2px;
+        padding: 3px;
         font-size: small;
-        min-width: 200px;
+
     }
 
 
