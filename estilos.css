@@ -42,6 +42,7 @@ nav{
 .boton:hover{
     color: var(--gris);
     background-color: var(--amarillo);
+    transition: background-color 0.5s ease;
 }
 
 
@@ -59,6 +60,11 @@ main{
     background-color: var(--negro);
     /* background-image: url(./img/Fondos/black-background-with-fabric-texture.jpg); */
     background-size: cover;
+}
+
+.container{
+    background: linear-gradient(var(--negro),var(--amarillo));
+
 }
 
 
@@ -116,8 +122,10 @@ i:hover{
 
 footer{
     /* background-color: var(--background); */
-    background-image: url(./img/Fondos/black-background-with-fabric-texture.jpg);
-    background-size: cover;
+    /* background-image: url(./img/Fondos/black-background-with-fabric-texture.jpg); */
+    background-color: var(--negro);
+    background: linear-gradient(to top, var(--negro), var(--gris));
+    /* background-size: cover; */
     color: var(--blanco);
     font-size: small;
     padding: 20px;
