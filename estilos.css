@@ -68,7 +68,6 @@ main{
 }
 
 
-
 #banner{
     background-image: url(img/APAISADA.jpg);
     background-size: cover;
@@ -104,6 +103,7 @@ i:hover{
     display: flex;
     direction: flex;
     margin: 0 70px 0 70px;
+    padding: 10px;
     align-items: center;
     gap: 30px;
     color: black;
