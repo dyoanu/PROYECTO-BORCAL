@@ -64,7 +64,7 @@ main{
 
 .container{
     background: linear-gradient(var(--negro),var(--amarillo));
-
+    padding-bottom: 1px;
 }
 
 
