@@ -3,62 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos.css">
-    <script src="https://kit.fontawesome.com/b5bf407d8e.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="./img/favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <title>Calzados Borcal</title>
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-
-    <header>
-        <!-- Barra menu ------------->
-        <nav>
-            <section id="tabla-header">
-
-                   <a href="./inicio.html"><button class="boton" >INICIO</button></a>
-                   <a href="./prductos.html"><button class="boton" >PRODUCTOS</button></a>
-                   <a href="./tecnica.html"><button class="boton" >INFO TECNICA</button></a>
-                   <a href="#"><button class="boton" >CONTACTO</button></a>
-                
-            </section>
-        </nav>
-    </header>
-
     <main>
+        <form action="" class="formulario" id="formulario">
+            
+            <!-- Grupo: Nombre y Apellido -->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Nombre y Apellido: </label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El nombre y apellido tiene que ser de 4 a 20 caracteres y solo puede contener letras y espacio.</p>
+			</div>
+           
+            <!-- empresa -->
+            <div class="formulario__grupo" id="grupo__empresa">
+				<label for="empresa" class="formulario__label">Empresa:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="empresa" id="empresa" placeholder="nombre de su empresa">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Empresa tiene que tener de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
 
-        <!-- Sobre flotante ---------->
-        <section id="sobre">
-            <a href="#" target="_blank"><i class="fa-solid fa-envelope fa-flip-horizontal fa-2xl" ;"></i></a>
-        </section>
-        
-        <section id="banner">
+			 <!-- cargo -->
+			 <div class="formulario__grupo" id="grupo__cargo">
+                <label for="cargo" class="formulario__label"> cargo: 
+                </label>
+                <select name="cargo" id="cargo">
+					<option value=""></option>
+                    <option value="empleado">Empleado</option>
+                    <option value="encargado">Encargado</option>
+                    <option value="rrhh">RRHH</option>
+                    <option value="gerente">Gerente</option>
+                </select>
+            </div>
 
-            <img src="./img/descripcion.jpg" alt="" id="imagen-banner">
+            <!-- cuit -->
+            <div class="formulario__grupo" id="grupo__cuil">
+				<label for="cuil" class="formulario__label">Nro. de Cuil: </label>
+				<div class="formulario__grupo-input">
+					<input type="number" class="formulario__input" name="cuil" id="cuil" placeholder="2091234567">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+					<br>
+					<label for="foto">Adjunte foto constancia de cuil</label>
+					<input type="file" required>
+				</div>
+				<p class="formulario__input-error">El nro. de cuil solo puede contener numeros y el maximo son 14 dígitos.</p>
+			</div>
 
-        </section>
-      
+            <!-- dirección -->
+            <div class="formulario__grupo" id="grupo__direccion">
+				<label for="dirección" class="formulario__label">Dirección: </label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="direccion" id="direccion" placeholder="calle nro.">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">La direccion tiene que ser de 4 a 16 caracteres y solo puede contener numeros, letras.</p>
+			</div>
+            <!-- localidad -->
+            <div class="formulario__grupo" id="grupo__localidad">
+				<label for="localidad" class="formulario__label">Localidad: </label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="localidad" id="localidad" placeholder="barrio">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">La localidad tiene que tener de 4 a 16  y solocaracteres puede contener numeros, letras.</p>
+			</div>
+            <!-- Provincia -->
+            <div class="formulario__grupo" id="grupo__provincia">
+				<label for="provincia" class="formulario__label">Provincia: </label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="provincia" id="provincia" placeholder="provincia">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Provincia tiene que tener de 4 a 16 caracteres y solo puede contener letras.</p>
+			</div>
+            <!-- Telefono -->
+            <div class="formulario__grupo" id="grupo__telefono">
+				<label for="telefono" class="formulario__label">Teléfono:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+			</div>
+            <!-- mail -->
+            <div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">Correo Electrónico: </label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+			<!-- consultas -->
+			 <div class="form-control">
+				<label for="consultas">Escriba su consulta: </label>
+				<textarea name="consultas" id="consultas" cols="30" rows="5"></textarea>
+			   </div>
+
+			   <!-- Grupo: Terminos y Condiciones -->
+			<div class="formulario__grupo" id="grupo__terminos">
+				<label class="formulario__label">
+					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+					Acepto los Terminos y Condiciones
+				</label>
+			</div>
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+
+
+         </form>
     </main>
-
-    <footer>
-
-        <div class="tabla-footer">
-
-            <div class="td3">
-                <a class="redes" href="#" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
-                <a class="redes" href="#" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
-                <a class="redes" href="#" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a>
-                <a class="redes" href="#" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
-                <a class="redes" href="#" target="_blank"><i class="fa-solid fa-envelope fa-xl"></i></i></a>
-            </div>
-
-            <div class="td4">
-                <p>Zelada 4746, (C1407GXH) CABA, Argentina. Teléfono: (011) 4635-8180 - Líneas Rotativas - Fax: Int. 12 /  Copyright All Rights Reserved © 2014</p>
-            </div>
-
-        </div>
-
-    </footer>
+	<script src="js/formulario.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     
 </body>
 </html>
