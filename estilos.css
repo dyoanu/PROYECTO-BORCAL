@@ -91,7 +91,11 @@ main{
     margin: 5px;
     right: 1%;
     bottom: 10%;
+    transition: transform 0.5s;
+}
 
+#sobre:hover {
+    transform: scale(1.25); 
 }
 
 i:hover{

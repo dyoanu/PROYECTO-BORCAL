@@ -21,8 +21,10 @@ form.addEventListener("submit", (e) => {
   engine(archivo,3, "Debe subir un archivo");
   if (!terminos.checked) {
     terminos.value = "";
-    engine(terminos, 4, "Debes aceptar los términos y condiciones para enviar el formulario.");
-  }
+  } else {
+    terminos.value = "si";
+  }  
+  engine(terminos, 4, "Debes aceptar los términos y condiciones para enviar el formulario.");
 });
 
 let engine = (id, serial, message) => {

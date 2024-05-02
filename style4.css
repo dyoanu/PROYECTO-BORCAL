@@ -48,7 +48,7 @@
 
   form div textarea {
     width: 100%;
-    height: 40px;
+    /* height: 40px; */
     border-radius: 8px;
     outline: none;
     border: 2px solid #c4c4c4;
