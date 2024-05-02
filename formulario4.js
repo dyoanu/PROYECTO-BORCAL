@@ -15,32 +15,51 @@ let username = id("username"),
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
+  // if (terminos.checked) {
+  //   terminos.value = "si";
+  // } else {
+  //   terminos.value = "";
+  // }  
   engine(username, 0, "El nombre no puede estar vacío");
   engine(email, 1, "La dirección de correo electrónico no puede estar vacío");
   engine(mensaje, 2, "El mensaje no puede estar vacío");
-  engine(archivo,3, "Debe subir un archivo");
-  if (!terminos.checked) {
-    terminos.value = "";
-  } else {
-    terminos.value = "si";
-  }  
+  engine(archivo, 3, "Debe subir un archivo");
   engine(terminos, 4, "Debes aceptar los términos y condiciones para enviar el formulario.");
 });
 
 let engine = (id, serial, message) => {
-  if (id.value.trim() === "") {
-    errorMsg[serial].innerHTML = message;
-    id.style.border = "2px solid red";
+  if (id == terminos) {
+    if (!id.checked){
+      errorMsg[serial].innerHTML = message;
+      id.style.border = "2px solid red";
+  
+      // íconos
+      failureIcon[serial].style.opacity = "1";
+      successIcon[serial].style.opacity = "0";
+    } else{
+      errorMsg[serial].innerHTML = "";
+      id.style.border = "2px solid green";
+  
+      // íconos
+      failureIcon[serial].style.opacity = "0";
+      successIcon[serial].style.opacity = "1";
+    }
+    } else {
+      if (id.value.trim() == "") {
+        errorMsg[serial].innerHTML = message;
+        id.style.border = "2px solid red";
+    
+        // íconos
+        failureIcon[serial].style.opacity = "1";
+        successIcon[serial].style.opacity = "0";
+      } else {
+        errorMsg[serial].innerHTML = "";
+        id.style.border = "2px solid green";
+    
+        // íconos
+        failureIcon[serial].style.opacity = "0";
+        successIcon[serial].style.opacity = "1";
+      }
+    }
 
-    // íconos
-    failureIcon[serial].style.opacity = "1";
-    successIcon[serial].style.opacity = "0";
-  } else {
-    errorMsg[serial].innerHTML = "";
-    id.style.border = "2px solid green";
-
-    // íconos
-    failureIcon[serial].style.opacity = "0";
-    successIcon[serial].style.opacity = "1";
-  }
 };
