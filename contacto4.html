@@ -17,12 +17,8 @@
 
       <form id="form">
 
-        <!-- /** 
-          * ! Nombre y apellido
-         **/ -->
-
         <div>
-          <label for="nombre">Nombre y apellido</label>
+          <label for="nombre">Nombre y apellido - Razón social</label>
           <i class="fas fa-user" style="color: black;"></i>
           <input
             type="text"
@@ -34,10 +30,6 @@
           <i class="far fa-check-circle success-icon"></i>
           <div class="error"></div>
         </div>
-
-        <!-- /** 
-          * ! Email
-         **/ -->
 
         <div>
           <label for="email">Correo electrónico</label>
@@ -53,9 +45,19 @@
           <div class="error"></div>
         </div>
 
-        <!-- /** 
-          * ! Mensaje
-         **/ -->
+        <div>
+          <label for="telefono">Teléfono</label>
+          <i class="fas fa-phone" style="color: black;"></i>
+          <input
+            type="text"
+            name="telefono"
+            id="telefono"
+            placeholder="(11) 1234 5678"
+          />
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          <div class="error"></div>
+        </div>
 
         <div>
           <label for="mensaje">Mensaje</label>
