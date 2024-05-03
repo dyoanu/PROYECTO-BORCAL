@@ -210,6 +210,11 @@ footer{
         flex-direction: column;
     }
 
+    #formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
 }
 

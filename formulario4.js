@@ -22,18 +22,18 @@ const requisitoEmail = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
+  e.preventDefault();  
 
   validar(nombre, 0, "El nombre no puede estar vacío ni contener números");
   validar(email, 1, "La dirección de correo electrónico no puede estar vacío debe cumplir con el formato correcto");
   validar(telefono, 2, "Debe incluir un teléfono de contacto");
   validar(departamento, 3, "Debe seleccionar el destinatario de su mensaje");
   validar(archivo, 5, "Debe subir un archivo");
-  validar(terminos, 6, "Debes aceptar los términos y condiciones para enviar el formulario");
+  validar(terminos, 6, "Debe aceptar los términos y condiciones para enviar el formulario");
   validar(mensaje, 4, "El mensaje no puede estar vacío");
 });
 
-let validar = (id, serial, message) => {
+let validar = (id, orden, message) => {    // valida qué campo, el orden para mostrar el error, qué mensaje de error
   if (id === terminos) {   // Si es el checkbox se evalúa distinto
       estaBien = id.checked;  // chequeado true, no chequeado false
     }
@@ -51,26 +51,26 @@ let validar = (id, serial, message) => {
           case telefono:
             estaBien = requisitoTelefono.test(id.value);  // Evalúa si cumple con formato número de teléfono
             break;
-          default:  // Los campos que no se evalúan (mensaje, archivo)
+          default:  // Los campos que no se de manera particular evalúan (mensaje, archivo)
             estaBien = true;  
         }
       }
     }
 
     if (estaBien) {  // Si pasó la validación
-      errorMsg[serial].innerHTML = "";
+      errorMsg[orden].innerHTML = "";
       id.style.border = "2px solid green";
   
       // muestra íconos
-      failureIcon[serial].style.opacity = "0";
-      successIcon[serial].style.opacity = "1";
+      failureIcon[orden].style.opacity = "0";
+      successIcon[orden].style.opacity = "1";
     } else {  // Si  no pasó la validación
-      errorMsg[serial].innerHTML = message;
+      errorMsg[orden].innerHTML = message;
       id.style.border = "2px solid red";
   
       // muestra íconos
-      failureIcon[serial].style.opacity = "1";
-      successIcon[serial].style.opacity = "0";
+      failureIcon[orden].style.opacity = "1";
+      successIcon[orden].style.opacity = "0";
     }
 
 };
