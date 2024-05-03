@@ -6,6 +6,8 @@
   
   body {
     font-family: sans-serif;
+    background-color: black;
+    color: white;
   }
   
   .container {
@@ -35,6 +37,8 @@
     width: 100%;
     height: 40px;
     border-radius: 8px;
+    background-color: white;
+    color: black;
     outline: none;
     border: 2px solid #c4c4c4;
     padding: 7px 30px;
@@ -48,7 +52,7 @@
 
   form div textarea {
     width: 100%;
-    height: 40px;
+    /* height: 40px; */
     border-radius: 8px;
     outline: none;
     border: 2px solid #c4c4c4;
@@ -57,7 +61,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  
   label {
     display: block;
     margin-bottom: 5px;
@@ -114,10 +117,10 @@
     margin-top: 15px;
     width: 100%;
     height: 45px;
-    background-color: #f2796e;
-    border: 2px solid #f2796e;
+    background-color: yellow;
+    border: 2px solid yellow;
     border-radius: 8px;
-    color: #fff;
+    color: black;
     font-size: 20px;
     cursor: pointer;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
