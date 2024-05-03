@@ -7,7 +7,8 @@ let nombre = id("nombre"),
   mensaje = id("mensaje"),
   terminos = id("terminos"),
   archivo = id("archivo"),
-  telefono = id("telefono");
+  telefono = id("telefono"),
+  departamento = id("departamento"),
   form = id("form"),
   errorMsg = classes("error"),
   successIcon = classes("success-icon"),
@@ -22,12 +23,14 @@ const requisitoEmail = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+
   validar(nombre, 0, "El nombre no puede estar vacío ni contener números");
   validar(email, 1, "La dirección de correo electrónico no puede estar vacío debe cumplir con el formato correcto");
-  validar(mensaje, 3, "El mensaje no puede estar vacío");
-  validar(archivo, 4, "Debe subir un archivo");
-  validar(terminos, 5, "Debes aceptar los términos y condiciones para enviar el formulario");
   validar(telefono, 2, "Debe incluir un teléfono de contacto");
+  validar(departamento, 3, "Debe seleccionar el destinatario de su mensaje");
+  validar(archivo, 5, "Debe subir un archivo");
+  validar(terminos, 6, "Debes aceptar los términos y condiciones para enviar el formulario");
+  validar(mensaje, 4, "El mensaje no puede estar vacío");
 });
 
 let validar = (id, serial, message) => {

@@ -60,14 +60,32 @@
         </div>
 
         <div>
-          <label for="mensaje">Mensaje</label>
-          <i class="fas fa-pencil-alt" style="color: black;"></i>
-          <textarea id="mensaje" name="mensaje" rows="20" cols="50" placeholder="Mensaje"></textarea>
+          <label for="departamento">Destinatario del mensaje</label>
+          <i class="fa fa-envelope-open" style="color: black;"></i>
+          <select id="departamento">
+            <option value="" disabled selected>Elija el departamento</option>
+            <option value="ventas">Ventas</option>
+            <option value="administracion">Administración</option>
+            <option value="tecnico">Técnico</option>
+            <option value="atencion-al-cliente">Atención al cliente</option>
+          </select>
 
           <i class="fas fa-exclamation-circle failure-icon"></i>
           <i class="far fa-check-circle success-icon"></i>
           <div class="error"></div>
         </div>
+
+        <div>
+          <label for="mensaje">Mensaje</label>
+          <i class="fas fa-pencil-alt" style="color: black;"></i>
+          <textarea id="mensaje" name="mensaje" rows="20" cols="50" placeholder="Mensaje"></textarea>
+          
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          <div class="error"></div>
+        
+        </div>
+
 
         <div>
             <label for="archivo">Subir archivo</label>
