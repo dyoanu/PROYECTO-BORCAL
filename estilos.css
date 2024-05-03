@@ -68,6 +68,10 @@ main{
     padding-bottom: 1px;
 }
 
+.card:hover{
+    animation: bounce 0.5s;
+}
+
 
 #banner{
     background-image: url(img/APAISADA.jpg);
@@ -82,6 +86,8 @@ main{
 
 #imagen-banner{
     padding-left: 2%;
+    height: 12vw;
+    min-height: 120px;
 }
 
 
@@ -230,6 +236,7 @@ footer{
         align-items: flex-end;
 
     }
+
 
     #seccion-video{
         flex-direction: column;
