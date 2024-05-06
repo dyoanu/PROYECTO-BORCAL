@@ -113,7 +113,7 @@ i:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    margin: 0 auto;
     width: 70%;
     /* max-width: 12px; */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
@@ -182,7 +182,11 @@ i:hover{
   textarea:focus {
     border: 2px solid #f2796e;
   }
-
+  table {
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 5px;
+  }
   
   /**
   * íconos

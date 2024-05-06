@@ -19,8 +19,8 @@ function anioActual(){
  function escribirFooter(){
     document.write("<div class='tabla-footer'>")
     document.write("<div class='td3'>")
-    document.write("<a class='redes' href='#' target='_blank'><i class='fa-brands fa-linkedin fa-xl'></i>")
-    document.write("</a> <a class='redes' href='#' target='_blank'><i class='fa-brands fa-facebook fa-xl'></i></a>")
+    document.write("<a class='redes' href='#' target='_blank'><i class='fa-brands fa-linkedin fa-xl'></i></a>")
+    document.write("<a class='redes' href='#' target='_blank'><i class='fa-brands fa-facebook fa-xl'></i></a>")
     document.write("<a class='redes' href='#' target='_blank'><i class='fa-brands fa-twitter fa-xl'></i></a>")
     document.write("<a class='redes' href='#' target='_blank'><i class='fa-brands fa-whatsapp fa-xl'></i></a>")
     document.write("<a class='redes' href='./contacto.html' target='_blank'><i class='fa-solid fa-envelope fa-xl'></i></a>")
