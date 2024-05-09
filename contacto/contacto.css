@@ -147,6 +147,7 @@ i:hover{
     padding: 7px 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* resize: vertical; */
   }
 
   form div select {
