@@ -14,8 +14,10 @@
 
 body {
   font-family: sans-serif;
-  background-color: black;
+  /* background-color: black; */
   color: white;
+  background-image: url(../img/Fondos/close-up-engraving-art-tools.jpg);
+  background-size: cover;
 }
 
 /* Encabezado ----------------------------------------------------- */

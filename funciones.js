@@ -29,3 +29,10 @@ function anioActual(){
     document.write("<p>Zelada 4746, (C1407GXH) CABA, Argentina. Teléfono: (011) 4635-8180 - Líneas Rotativas - Fax: Int. 12 /  Copyright All Rights Reserved © <script>document.write(anioActual())</script></p> </div>")
     document.write("</div>")
  }
+
+ function escribirLampara(){
+   document.write("<section id='lampara' onclick='iluminar()'> <a href='#' ><i class='fa-solid fa-lightbulb fa-2xl'></i></a></section>")
+}
+
+
+
