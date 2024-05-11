@@ -59,7 +59,7 @@ nav{
 
 main{
     background-color: var(--negro);
-    /* background-image: url(./img/Fondos/black-background-with-fabric-texture.jpg); */
+    background-image: url(./img/Fondos/black-background-with-fabric-texture.jpg);
     background-size: cover;
 }
 
@@ -88,8 +88,9 @@ main{
     padding-left: 2%;
     height: 10vw;
     min-height: 120px;
-}
+    object-fit: cover;
 
+}
 
 #sobre{
     position: fixed;
