@@ -65,4 +65,26 @@ let datos = [
         "imagen": ""
     },
 
+    {
+        "titulo" : "",
+        "articulo" : "",
+        "tilde1" : "",
+        "tilde2" : "",
+        "tilde3" : "",
+        "tilde4" : "",
+        "tilde5" : "",
+        "imagen": ""
+    },
+
+    {
+        "titulo" : "",
+        "articulo" : "",
+        "tilde1" : "",
+        "tilde2" : "",
+        "tilde3" : "",
+        "tilde4" : "",
+        "tilde5" : "",
+        "imagen": ""
+    },
+
 ] 

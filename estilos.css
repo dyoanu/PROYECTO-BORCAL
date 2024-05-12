@@ -59,13 +59,15 @@ nav{
 
 main{
     background-color: var(--negro);
-    background-image: url(./img/Fondos/black-background-with-fabric-texture.jpg);
+    background-image: url(./img/Fondos/negro\ 2.jpg);
     background-size: cover;
 }
 
 .container{
     background: linear-gradient(var(--negro),var(--amarillo));
     padding-bottom: 1px;
+    
+
 }
 
 .card:hover{
@@ -166,12 +168,14 @@ i:hover{
 footer{
     /* background-color: var(--background); */
     /* background-image: url(./img/Fondos/black-background-with-fabric-texture.jpg); */
+    
     background-color: var(--negro);
     background: linear-gradient(to top, var(--negro), var(--gris));
     /* background-size: cover; */
     color: var(--blanco);
     font-size: small;
     padding: 20px;
+    
 }
 
 .tabla-footer{
