@@ -18,7 +18,7 @@ let datos = [
         "tilde3" : "🟨Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : "🟨Plantilla: antimicotica, antimicrobiana, de espuma de latex.",
         "tilde5" : "🟨Numeracion: 35 al 47.",
-        "imagen": "."
+        "imagen": "./img/productos/Zapato de seguridad marron 1.png"
     },
 
 {
@@ -29,7 +29,7 @@ let datos = [
         "tilde3" : "🟨Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : "🟨Plantilla: antimicotica, antimicrobiana, de espuma de latex.",
         "tilde5" : "🟨Numeracion: 35 al 47.",
-        "imagen": ""
+        "imagen": "./img/productos/Botin de seguridad frances negro.png"
     },
 
     {
@@ -40,7 +40,7 @@ let datos = [
         "tilde3" : "🟨Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : "🟨Plantilla: antimicotica, antimicrobiana, de espuma de latex.",
         "tilde5" : "🟨Numeracion: 35 al 47.",
-        "imagen": ""
+        "imagen": "./img/productos/Botin de seguridad frances marron.png"
     },
 
     {
@@ -51,7 +51,7 @@ let datos = [
         "tilde3" : "🟨Lengueta: en Sintetico, con fuelle, sin forrar no acolchada.",
         "tilde4" : "🟨Plantilla: antimicotica, antimicrobiana, de espuma de latex.",
         "tilde5" : "🟨Numeracion: 35 al 47.",
-        "imagen": ""
+        "imagen": "./img/productos/Zapato ECo.png"
     },
 
     {
@@ -62,7 +62,7 @@ let datos = [
         "tilde3" : "🟨Lengueta: en Sintetico, con fuelle, sin forrar no acolchada.",
         "tilde4" : "🟨Plantilla: antimicotica, antimicrobiana, de espuma de latex.",
         "tilde5" : "🟨Numeracion: 35 al 47.",
-        "imagen": ""
+        "imagen": "./img/productos/botin ECo.png"
     },
 
     {
@@ -73,7 +73,7 @@ let datos = [
         "tilde3" : "🟨Lengueta: textil alta performance, forrada y acolchada.",
         "tilde4" : "🟨Plantilla: termoconformada, dibujo irregular efecto relajante.",
         "tilde5" : "🟨Numeracion: 35 al 47.",
-        "imagen": ""
+        "imagen": "./img/productos/20181101_161159.jpg"
     },
 
     {
@@ -84,7 +84,7 @@ let datos = [
         "tilde3" : "🟨Lengueta: textil alta performance, forrada y acolchada.",
         "tilde4" : "🟨Plantilla: termoconformada, dibujo irregular efecto relajante.",
         "tilde5" : "🟨Numeracion: 35 al 47.",
-        "imagen": ""
+        "imagen": "./img/productos/20181101_155501.jpg"
     },
 
 ] 
