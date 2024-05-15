@@ -1,7 +1,7 @@
 let datos = [
     {
         "titulo" : "Zapato Prusiano negro",
-        "articulo" : "art.9222P01",
+        "articulo" : "art.9222P.01",
         "tilde1" : "🟨Zapato de Seguridad con fondo de Poliuretano Bidensidad.",
         "tilde2" : "🟨Capellada: de cuero vacuno Flor, forro interior textil no tejido.",
         "tilde3" : "🟨Lengueta: en vacuno, con fuelle, forrada y acolchada.",
@@ -12,7 +12,7 @@ let datos = [
 
     {
         "titulo" : "Zapato Prusiano marron",
-        "articulo" : "art.9222P02",
+        "articulo" : "art.9222P.02",
         "tilde1" : "🟨Zapato de Seguridad con fondo de Poliuretano Bidensidad.",
         "tilde2" : "🟨Capellada: de cuero vacuno Flor, forro interior textil no tejido.",
         "tilde3" : "🟨Lengueta: en vacuno, con fuelle, forrada y acolchada.",
@@ -23,7 +23,7 @@ let datos = [
 
 {
         "titulo" : "Botin Frances negro",
-        "articulo" : "art.9422F01",
+        "articulo" : "art.9422F.01",
         "tilde1" : "🟨Botin de Seguridad con fondo de Poliuretano Bidensidad",
         "tilde2" : "🟨Capellada: cuero vacuno Flor, cuello y proteccion tobillo en vacuno.",
         "tilde3" : "🟨Lengueta: en vacuno, con fuelle, forrada y acolchada.",
@@ -34,7 +34,7 @@ let datos = [
 
     {
         "titulo" : "Botin Frances marron",
-        "articulo" : "art.9422F02",
+        "articulo" : "art.9422F.02",
         "tilde1" : "🟨Botin de Seguridad con fondo de Poliuretano Bidensidad",
         "tilde2" : "🟨Capellada: cuero vacuno Flor, cuello y proteccion tobillo en vacuno.",
         "tilde3" : "🟨Lengueta: en vacuno, con fuelle, forrada y acolchada.",
@@ -45,7 +45,7 @@ let datos = [
 
     {
         "titulo" : "Zapato ECo negro",
-        "articulo" : "art.7222E01",
+        "articulo" : "art.7222.01",
         "tilde1" : "🟨Zapato de Seguridad fondo Poliuretano Bidensidad.",
         "tilde2" : "🟨Capellada: de cuero vacuno Box, forro interior textil no tejido.",
         "tilde3" : "🟨Lengueta: en Sintetico, con fuelle, sin forrar no acolchada.",
@@ -56,7 +56,7 @@ let datos = [
 
     {
         "titulo" : "Botin ECo negro",
-        "articulo" : "art.7422E01",
+        "articulo" : "art.7422.01",
         "tilde1" : "🟨Botin de Seguridad fondo Poliuretano Bidensidad.",
         "tilde2" : "🟨Capellada: cuero vacuno Box, cuello y proteccion tobillo Sintetico.",
         "tilde3" : "🟨Lengueta: en Sintetico, con fuelle, sin forrar no acolchada.",
@@ -67,7 +67,7 @@ let datos = [
 
     {
         "titulo" : "Zapatilla negra",
-        "articulo" : "art.FlexZ10001",
+        "articulo" : "art.Flex-Z100.01",
         "tilde1" : "🟨Zapatilla de Seguridad fondo Poliuretano Bidensidad.",
         "tilde2" : "🟨Capellada: cuero vacuno curtido pasante y textil.",
         "tilde3" : "🟨Lengueta: textil alta performance, forrada y acolchada.",
@@ -78,7 +78,7 @@ let datos = [
 
     {
         "titulo" : "Zapatilla marron",
-        "articulo" : "art.FlexZ10002",
+        "articulo" : "art.Flex-Z100.02",
         "tilde1" : "🟨Zapatilla de Seguridad fondo Poliuretano Bidensidad.",
         "tilde2" : "🟨Capellada: cuero vacuno curtido pasante y textil.",
         "tilde3" : "🟨Lengueta: textil alta performance, forrada y acolchada.",
