@@ -94,6 +94,10 @@ main{
 
 }
 
+#infoEmp{
+    padding-left: 2%;
+}
+
 #sobre{
     position: fixed;
     z-index: 999;
