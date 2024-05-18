@@ -77,7 +77,7 @@ main{
 
 
 #banner{
-    background-image: url(img/APAISADA.jpg);
+    background-image: url(../img/APAISADA.jpg);
     background-size: cover;
     height: 400px;
     color: var(--amarillo);
