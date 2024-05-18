@@ -9,6 +9,7 @@ main{
 
 h1{
   margin-left: 20px;
+  font-size: 26px;
 }
 
 .producto-card {
@@ -51,15 +52,6 @@ h1{
   text-align: center;
 }
 
-.listadoProductos{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding:2%;
-  gap: 15px;
-  font-size: 13px;
-}
-
 .listadoProductosA{
   display: flex;
   flex-wrap: wrap;
@@ -70,6 +62,15 @@ h1{
 }
 
 .listadoProductosB{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding:2%;
+  gap: 15px;
+  font-size: 13px;
+}
+
+.listadoProductosC{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

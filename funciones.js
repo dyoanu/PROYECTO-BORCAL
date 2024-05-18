@@ -17,7 +17,7 @@ function anioActual(){
  }
 
  function escribirFlecha(){
-   document.write("<section id='flecha'> <a href='#' ><i class='fa-solid fa-angles-up fa-2xl'></i></a></section>")
+   document.write("<section id='flecha'> <a href='#' ><i class='fa-solid fa-angles-up fa-2xl';></i></a></section>")
  }
 
  function escribirFooter(){

@@ -74,3 +74,33 @@ let validar = (id, orden, message) => {    // valida qué campo, el orden para m
     }
 
 };
+
+function getPaginaOrigen() {
+  const paginaOrigen = document.referrer;  // de qué página llega a contacto.html
+
+  if (paginaOrigen.includes("inicio.html")) {
+    return "inicio";
+  } else if (paginaOrigen.includes("Productos")) {
+    return "productos";
+  } else if (paginaOrigen.includes("infotecnica.html")) {
+    return "infotecnica";
+  } else {
+    return "other";
+  }
+}
+
+const selectElement = document.getElementById("departamento");  // en el campo destino del mensaje
+
+switch (getPaginaOrigen()) {  // elijo qué opción poner por defecto
+  case "inicio":
+    selectElement.value = "atencion-al-cliente";
+    break;
+  case "productos":
+    selectElement.value = "ventas";
+    break;
+  case "infotecnica":
+    selectElement.value = "tecnico";
+    break;
+  default:
+    selectElement.value = "";
+}
