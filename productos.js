@@ -19,10 +19,10 @@ for(let elemento of datos){
                     <p class="articulo">${elemento.articulo}</p>
            
                     <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde1}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde2}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde3}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde4}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde5}<br>  
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde2}<br>
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde3}<br>
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde4}<br>
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde5}<br>  
              
                 </div>
                 
@@ -41,10 +41,10 @@ for(let elemento of datos){
                     <p class="articulo">${elemento.articulo}</p>
         
                     <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde1}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde2}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde3}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde4}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde5}<br>  
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde2}<br>
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde3}<br>
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde4}<br>
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde5}<br>  
          
                 </div>
             
@@ -62,11 +62,11 @@ for(let elemento of datos){
                     <h2>${elemento.titulo}</h2>
                     <p class="articulo">${elemento.articulo}</p>
            
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde1}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde2}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde3}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde4}<br>
-                    <i class="fa fa-angle-right"  aria-hidden="true" style="color: yellow;"></i>${elemento.tilde5}<br>  
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde1}<br>
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde2}<br>
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde3}<br>
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde4}<br>
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: yellow;"></i>${elemento.tilde5}<br>  
              
                 </div>
                 

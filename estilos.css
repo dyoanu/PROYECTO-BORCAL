@@ -34,7 +34,7 @@ nav{
     padding: 1rem;
     font-size: medium;
     font-weight: bold;
-    color: white;
+    color: var(--blanco);
     background-color: var(--negro);
 
 }
@@ -61,6 +61,7 @@ main{
     background-color: var(--negro);
     background-image: url(./img/Fondos/negro\ 2.jpg);
     background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container{
@@ -79,7 +80,7 @@ main{
     background-image: url(img/APAISADA.jpg);
     background-size: cover;
     height: 400px;
-    color: yellow;
+    color: var(--amarillo);
     /* font-weight: bold; */
     display: flex;
     align-items: center;
@@ -140,7 +141,7 @@ main{
 } 
 
 i:hover{
-    color: yellow;
+    color: var(--amarillo);
 }
 
 #seccion-video{
@@ -150,13 +151,13 @@ i:hover{
     padding: 10px;
     align-items: center;
     gap: 30px;
-    color: black;
-    border-color: grey;
+    color:var(--negro);
+    border-color: var(--gris);
     border-style:groove ;
 }
 
 #texto-video{
-    background-color: white;
+    background-color: var(--blanco);
     padding: 3%;
 }
 
