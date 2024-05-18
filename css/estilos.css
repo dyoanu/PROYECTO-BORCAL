@@ -59,7 +59,7 @@ nav{
 
 main{
     background-color: var(--negro);
-    background-image: url(./img/Fondos/negro\ 2.jpg);
+    background-image: url(../img/Fondos/negro\ 2.jpg);
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
