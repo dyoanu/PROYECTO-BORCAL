@@ -94,6 +94,7 @@ main{
 
 }
 
+
 #flecha{
     position: fixed;
     z-index: 999;
@@ -101,6 +102,7 @@ main{
     right: 10px;
     bottom: 10%;
     transition: transform 0.5s;
+    padding-left: 2%;
 }
 
 #sobre{
