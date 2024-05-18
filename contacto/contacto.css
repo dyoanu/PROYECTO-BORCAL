@@ -15,7 +15,7 @@
 body {
   font-family: sans-serif;
   /* background-color: black; */
-  color: white;
+  color: var(--blanco);
   background-image: url(../img/Fondos/negro\ 2.jpg);
   background-size: cover;
 }
@@ -42,7 +42,7 @@ nav{
   padding: 1rem;
   font-size: medium;
   font-weight: bold;
-  color: white;
+  color: var(--blanco);
   background-color: var(--negro);
 
 }
@@ -109,7 +109,7 @@ nav{
 } 
 
 i:hover{
-  color: yellow;
+  color: var(--amarillo);
 }
 
 
@@ -136,10 +136,10 @@ i:hover{
     width: 100%;
     height: 40px;
     border-radius: 8px;
-    background-color: white;
-    color: black;
+    background-color: var(--blanco);
+    color: var(--negro);
     outline: none;
-    border: 2px solid #c4c4c4;
+    border: 2px solid var(--gris);
     padding: 7px 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -154,7 +154,7 @@ i:hover{
     /* height: 40px; */
     border-radius: 8px;
     outline: none;
-    border: 2px solid #c4c4c4;
+    border: 2px solid var(--gris);
     padding: 7px 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -166,7 +166,7 @@ i:hover{
     height: 40px;
     border-radius: 8px;
     outline: none;
-    border: 2px solid #c4c4c4;
+    border: 2px solid var(--gris);
     padding: 7px 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -188,11 +188,11 @@ i:hover{
   }
   
   input:focus {
-    border: 2px solid #f2796e;
+    border: 2px solid var(--amarillo);
   }
   
   textarea:focus {
-    border: 2px solid #f2796e;
+    border: 2px solid var(--amarillo);
   }
   table {
   margin-right: auto;
@@ -238,8 +238,8 @@ i:hover{
     margin-top: 15px;
     width: 100%;
     height: 45px;
-    background-color: yellow;
-    border: 2px solid yellow;
+    background-color: var(--amarillo);
+    border: 2px solid var(--amarillo);
     border-radius: 8px;
     color: black;
     font-size: 20px;
