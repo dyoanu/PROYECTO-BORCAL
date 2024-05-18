@@ -94,29 +94,26 @@ main{
 
 }
 
+#flecha{
+    position: fixed;
+    z-index: 999;
+    margin: 5px;
+    right: 10px;
+    bottom: 10%;
+    transition: transform 0.5s;
+}
+
 #sobre{
     position: fixed;
     z-index: 999;
     margin: 5px;
-    right: 1%;
+    right: 50px;
     bottom: 10%;
     transition: transform 0.5s;
 }
 
 #sobre:hover {
     /* transform: scale(1.25);  */
-    animation: bounce 0.5s;
-}
-
-#lampara{
-    position: fixed;
-    z-index: 999;
-    right: 1.6%;
-    bottom: 3%;
-    transition: transform 0.5s;
-}
-
-#lampara:hover{
     animation: bounce 0.5s;
 }
 

@@ -16,6 +16,10 @@ function anioActual(){
     document.write("<section id='sobre'> <a href='./contacto.html' ><i class='fa-solid fa-envelope fa-flip-horizontal fa-2xl' ;></i></a></section>")
  }
 
+ function escribirFlecha(){
+   document.write("<section id='flecha'> <a href='#' ><i class='fa-solid fa-angles-up fa-2xl'></i></a></section>")
+ }
+
  function escribirFooter(){
     document.write("<div class='tabla-footer'>")
     document.write("<div class='td3'>")
