@@ -13,6 +13,11 @@
 
 }
 
+body {
+    min-height: 100%;
+}
+
+
 /* Encabezado ----------------------------------------------------- */
 
 nav{
@@ -63,7 +68,8 @@ main{
     background-image: url(../img/Fondos/negro\ 2.jpg);
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 100%;
+    height:100%;
+    /* padding-bottom: 55px; */ 
 }
 
 .container{
@@ -168,15 +174,16 @@ i:hover{
 /* Pie -------------------------------------------------------------- */
 
 footer{
-    /* background-color: var(--background); */
-    /* background-image: url(./img/Fondos/black-background-with-fabric-texture.jpg); */
-    
+   
     background-color: var(--negro);
     background: linear-gradient(to top, var(--negro), var(--gris));
     /* background-size: cover; */
     color: var(--blanco);
     font-size: small;
     padding: 20px;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
     
 }
 
