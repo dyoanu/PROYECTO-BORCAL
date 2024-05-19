@@ -120,7 +120,7 @@ main{
     z-index: 999;
     margin: 5px;
     right: 10px;
-    bottom: 5%;
+    bottom: 7%;
     transition: transform 0.5s;
     padding-left: 2%;
 }
@@ -135,7 +135,7 @@ main{
     z-index: 9999;
     margin: 5px;
     right: 50px;
-    bottom: 5%;
+    bottom: 7%;
     transition: transform 0.5s;
 }
 
