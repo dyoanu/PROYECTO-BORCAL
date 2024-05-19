@@ -106,6 +106,14 @@ main{
 
 }
 
+#imagen-banner2{
+    padding-left: 5%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
 
 #flecha{
     position: fixed;
@@ -243,6 +251,8 @@ footer{
         justify-content: center;
     }
 
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -274,5 +284,7 @@ footer{
         flex-direction: column;
         margin: 0;
     }
+
+
 
 }
