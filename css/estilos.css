@@ -48,6 +48,7 @@ nav{
     color: var(--gris);
     background-color: var(--amarillo);
     transition: background-color 0.5s ease;
+    
 }
 
 
@@ -81,7 +82,10 @@ main{
 
 .btn:hover{
     animation: bounce 0.5s;
+
 }
+
+
 
 #banner{
     background-image: url(../img/APAISADA.jpg);
