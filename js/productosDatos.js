@@ -2,7 +2,7 @@ let datos = [
     {
         "titulo" : "Zapato Prusiano negro",
         "articulo" : "art.9222P.01",
-        "tilde1" : "🟨Zapato de Seguridad con fondo de Poliuretano Bidensidad.",
+        "tilde1" : " Zapato de Seguridad con fondo de Poliuretano Bidensidad.",
         "tilde2" : "🟨Capellada: de cuero vacuno Flor, forro interior textil no tejido.",
         "tilde3" : "🟨Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : "🟨Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
