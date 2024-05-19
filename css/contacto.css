@@ -74,6 +74,11 @@ nav{
   transition: transform 0.5s;
 }
 
+#flecha:hover {
+  /* transform: scale(1.25);  */
+  animation: bounce 0.5s;
+}
+
 #sobre{
   position: fixed;
   z-index: 999;
