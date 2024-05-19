@@ -4,7 +4,7 @@
 } */
 
 main{
-  color: white;
+  color: var(--blanco);
 }
 
 h1{

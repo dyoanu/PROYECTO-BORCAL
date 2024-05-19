@@ -1,6 +1,7 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -62,6 +63,7 @@ main{
     background-image: url(../img/Fondos/negro\ 2.jpg);
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
 }
 
 .container{
