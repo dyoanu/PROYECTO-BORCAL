@@ -13,13 +13,11 @@
 
 }
 
-body {
-    min-height: 100%;
-}
-
-
 /* Encabezado ----------------------------------------------------- */
+header{
+    height: 0;
 
+}
 nav{
     position: fixed;
     z-index: 999999;
@@ -75,8 +73,6 @@ main{
 .container{
     background: linear-gradient(var(--negro),var(--amarillo));
     padding-bottom: 1px;
-    
-
 }
 
 .card:hover{
@@ -166,10 +162,9 @@ i:hover{
 
 #texto-video{
     background-color: var(--blanco);
+    text-align: justify;
     padding: 3%;
 }
-
-
 
 /* Pie -------------------------------------------------------------- */
 
@@ -184,6 +179,7 @@ footer{
     /* position: fixed; */
     width: 100%;
     bottom: 0;
+    height: 64px;
     
 }
 
@@ -193,7 +189,6 @@ footer{
     justify-content: space-around;
 
 }
-
 
 .redes{
     text-align: center;

@@ -3,6 +3,10 @@ function anioActual(){
     return anio;
  }
 
+ function irPaginaAnterior() {
+   window.history.back();
+ }
+
  function escribirMenu(){
   document.write("<nav><section id='tabla-header'>")
   document.write("<a href='./inicio.html'><button class='boton' >INICIO</button></a>")
