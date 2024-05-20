@@ -101,7 +101,7 @@ main{
 #imagen-banner{
     padding-left: 2%;
     height: 10vw;
-    min-height: 120px;
+    min-height: 100px;
     object-fit: cover;
 
 }
@@ -297,9 +297,6 @@ footer{
         margin: 0;
     }
 
-    #seccion-video > iframe {
-        width: 300px;
-    }
 
     #imagen-banner2{
 
