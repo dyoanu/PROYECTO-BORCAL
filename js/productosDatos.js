@@ -1,5 +1,5 @@
 const paginaUrl = window.location.origin;
-alert(paginaUrl);
+
 let datos = [
     {
         "titulo" : "Zapato Prusiano negro",
@@ -93,10 +93,8 @@ let datos = [
         "tilde3" : " Lengueta: textil alta performance, forrada y acolchada.",
         "tilde4" : " Plantilla: termoconformada, dibujo irregular con efecto relajante.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": "/img/Productos/art.Flex-Z100.02.jpg",
+        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/Productos/art.Flex-Z100.02.jpg",
         "cat" : "3"
     },
 
 ] 
-
-alert(datos[0]);
