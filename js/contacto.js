@@ -81,7 +81,7 @@ form.addEventListener("submit", (e) => {
 function getPaginaOrigen() {
   const paginaOrigen = document.referrer;  // de qué página llega a contacto.html
 
-  if (paginaOrigen.includes("inicio.html")) {
+  if (paginaOrigen.includes("index.html")) {
     return "inicio";
   } else if (paginaOrigen.includes("Productos")) {
     return "productos";
