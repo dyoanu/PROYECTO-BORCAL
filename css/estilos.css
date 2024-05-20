@@ -290,6 +290,14 @@ footer{
         margin: 0;
     }
 
+    #imagen-banner2{
+        padding-left: 5%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+    
+    }
+
 
 
 }
