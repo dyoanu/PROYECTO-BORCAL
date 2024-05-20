@@ -9,7 +9,7 @@ function anioActual(){
 
  function escribirMenu(){
   document.write("<nav><section id='tabla-header'>")
-  document.write("<a href='./inicio.html'><button class='boton' >INICIO</button></a>")
+  document.write("<a href='./index.html'><button class='boton' >INICIO</button></a>")
   document.write("<a href='./listadoProductos.html'><button class='boton' >PRODUCTOS</button></a>")
   document.write("<a href='./tecnica.html'><button class='boton' >INFO TECNICA</button></a>")
   document.write("<a href='./contacto.html'><button class='boton' >CONTACTO</button></a>")
