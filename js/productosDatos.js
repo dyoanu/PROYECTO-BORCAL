@@ -1,4 +1,5 @@
 const paginaUrl = window.location.origin;
+alert(paginaUrl);
 let datos = [
     {
         "titulo" : "Zapato Prusiano negro",
@@ -8,7 +9,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": paginaUrl + "img/productos/art.9222P.01.png",
+        "imagen": paginaUrl + "/img/productos/art.9222P.01.png",
         "cat" : "1"
     },
 
