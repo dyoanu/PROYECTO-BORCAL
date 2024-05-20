@@ -101,7 +101,7 @@ main{
 #imagen-banner{
     padding-left: 2%;
     height: 10vw;
-    min-height: 120px;
+    min-height: 100px;
     object-fit: cover;
 
 }
@@ -292,7 +292,7 @@ footer{
 
     #imagen-banner2{
         padding-left: 5%;
-        height: 300px;
+        height: 250px;
         object-fit: cover;
         border-radius: 10px;
     
