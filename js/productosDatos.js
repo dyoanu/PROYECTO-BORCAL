@@ -98,3 +98,5 @@ let datos = [
     },
 
 ] 
+
+alert(datos[0]);
