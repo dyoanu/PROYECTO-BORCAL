@@ -108,7 +108,7 @@ main{
 
 #imagen-banner2{
     padding-left: 5%;
-    height: 350px;
+    height: 340px;
     object-fit: cover;
     border-radius: 10px;
 
@@ -256,6 +256,13 @@ footer{
         justify-content: center;
     }
 
+    #imagen-banner2{
+        
+        height: 320px;
+
+    
+    }
+
 
 
 }
@@ -288,6 +295,13 @@ footer{
     #seccion-video{
         flex-direction: column;
         margin: 0;
+    }
+
+    #imagen-banner2{
+
+        height: 270px;
+
+    
     }
 
 
