@@ -9,7 +9,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": paginaUrl + "/img/Productos/art.9222P.01.png",
+        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/Productos/art.9222P.01.png",
         "cat" : "1"
     },
 
@@ -21,7 +21,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": "./img/productos/art.9222P.02.png",
+        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/productos/art.9222P.02.png",
         "cat" : "1"
     },
 
