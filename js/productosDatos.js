@@ -7,7 +7,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": "./img/productos/Zapato de seguridad negro.png",
+        "imagen": "./img/productos/art.9222P.01.png",
         "cat" : "1"
     },
 
@@ -19,7 +19,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": "./img/productos/Zapato de seguridad marron 1.png",
+        "imagen": "./img/productos/art.9222P.02.png",
         "cat" : "1"
     },
 
@@ -31,7 +31,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": "./img/productos/Botin de seguridad frances negro.png",
+        "imagen": "./img/productos/art.9422F.01.png",
         "cat" : "1"
     },
 
@@ -43,7 +43,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": "./img/productos/Botin de seguridad frances marron.png",
+        "imagen": "./img/productos/art.9422F.02.png",
         "cat" : "1"
     },
 
@@ -55,7 +55,7 @@ let datos = [
         "tilde3" : " Lengueta: en Sintético, con fuelle, sin forrar no acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": "./img/productos/Zapato ECo.png",
+        "imagen": "./img/productos/art.7222.01.png",
         "cat" : "2"
     },
 
@@ -67,7 +67,7 @@ let datos = [
         "tilde3" : " Lengueta: en Sintético, con fuelle, sin forrar no acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": "./img/productos/botin ECo.png",
+        "imagen": "./img/productos/art.7422.01.png",
         "cat" : "2"
     },
 
@@ -79,7 +79,7 @@ let datos = [
         "tilde3" : " Lengueta: textil alta performance, forrada y acolchada.",
         "tilde4" : " Plantilla: termoconformada, dibujo irregular con efecto relajante.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": "./img/productos/20181101_161159.jpg",
+        "imagen": "./img/productos/art.Flex-Z100.01.jpg",
         "cat" : "3"
     },
 
@@ -91,7 +91,7 @@ let datos = [
         "tilde3" : " Lengueta: textil alta performance, forrada y acolchada.",
         "tilde4" : " Plantilla: termoconformada, dibujo irregular con efecto relajante.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": "./img/productos/20181101_155501.jpg",
+        "imagen": "./img/productos/art.Flex-Z100.02.jpg",
         "cat" : "3"
     },
 
