@@ -101,14 +101,14 @@ main{
 #imagen-banner{
     padding-left: 2%;
     height: 10vw;
-    min-height: 100px;
+    min-height: 120px;
     object-fit: cover;
 
 }
 
 #imagen-banner2{
     padding-left: 5%;
-    height: 350px;
+    height: 340px;
     object-fit: cover;
     border-radius: 10px;
 
@@ -256,6 +256,13 @@ footer{
         justify-content: center;
     }
 
+    #imagen-banner2{
+        
+        height: 320px;
+
+    
+    }
+
 
 
 }
@@ -291,10 +298,9 @@ footer{
     }
 
     #imagen-banner2{
-        padding-left: 5%;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 10px;
+
+        height: 270px;
+
     
     }
 
