@@ -31,7 +31,7 @@ function anioActual(){
     document.write("<a class='redes' href='redes.html'><i class='fa-brands fa-facebook fa-xl'></i></a>")
     document.write("<a class='redes' href='redes.html'><i class='fa-brands fa-twitter fa-xl'></i></a>")
     document.write("<a class='redes' href='redes.html'><i class='fa-brands fa-whatsapp fa-xl'></i></a>")
-    document.write("<a class='redes' href='./contacto.html' target='_blank'><i class='fa-solid fa-envelope fa-xl'></i></a>")
+    document.write("<a class='redes' href='./contacto.html' ><i class='fa-solid fa-envelope fa-xl'></i></a>")
     document.write("</div>")
     document.write("<div class='td4'>")
     document.write("<p>Zelada 4746, (C1407GXH) CABA, Argentina. Teléfono: (011) 4635-8180 - Líneas Rotativas - Fax: Int. 12 /  Copyright All Rights Reserved © <script>document.write(anioActual())</script></p> </div>")
