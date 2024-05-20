@@ -101,7 +101,7 @@ main{
 #imagen-banner{
     padding-left: 2%;
     height: 10vw;
-    min-height: 100px;
+    min-height: 90px;
     object-fit: cover;
 
 }
