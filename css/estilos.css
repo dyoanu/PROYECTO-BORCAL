@@ -180,6 +180,10 @@ i:hover{
     border-style:groove ;
 }
 
+.iframe-responsivo{
+    position: relative;
+}
+
 #texto-video{
     background-color: var(--blanco);
     text-align: justify;
@@ -301,7 +305,6 @@ footer{
     #imagen-banner2{
 
         height: 270px;
-
     
     }
 
