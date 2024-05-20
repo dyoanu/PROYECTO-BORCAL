@@ -297,6 +297,10 @@ footer{
         margin: 0;
     }
 
+    #seccion-video > iframe {
+        width: 300px;
+    }
+
     #imagen-banner2{
 
         height: 270px;
