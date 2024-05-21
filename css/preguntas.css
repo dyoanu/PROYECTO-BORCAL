@@ -91,12 +91,9 @@ main{
   @media screen and (max-width: 767px) {
 
     td{
-      width: 250px;
+      width: 220px;
     }
 
-    #certificados{
 
-      margin-left: 5%;
-    }
 
   }
