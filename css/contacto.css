@@ -76,7 +76,6 @@ nav{
 }
 
 #flecha:hover {
-  /* transform: scale(1.25);  */
   animation: bounce 0.5s;
 }
 
@@ -90,7 +89,6 @@ nav{
 }
 
 #sobre:hover {
-  /* transform: scale(1.25);  */
   animation: bounce 0.5s;
 }
 
@@ -138,8 +136,7 @@ nav{
     width: 50%;
     min-width: 400px;
     /* max-width: 12px; */
-    /* box-shadow: 2px 2px 4px rgba(255, 255, 0, 1); */
-    padding: 50px;
+    /* padding: 50px; */
     
   }
   

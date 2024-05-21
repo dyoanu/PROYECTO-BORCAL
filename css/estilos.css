@@ -126,7 +126,6 @@ main{
 }
 
 #flecha:hover {
-    /* transform: scale(1.25);  */
     animation: bounce 0.5s;
 }
 
@@ -140,7 +139,6 @@ main{
 }
 
 #sobre:hover {
-    /* transform: scale(1.25);  */
     animation: bounce 0.5s;
 }
 
