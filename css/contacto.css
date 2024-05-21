@@ -40,7 +40,7 @@ nav{
 .boton{
 
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: medium;
   font-weight: bold;
   color: var(--blanco);
@@ -81,7 +81,7 @@ nav{
 
 #sobre{
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
   margin: 5px;
   right: 50px;
   bottom: 7%;
@@ -132,7 +132,8 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0 auto 25px auto;
+    /* margin-bottom: 25px; */
     width: 50%;
     min-width: 350px;
     /* max-width: 12px; */
