@@ -180,9 +180,7 @@ i:hover{
     border-style:groove ;
 }
 
-.iframe-responsivo{
-    position: relative;
-}
+
 
 #texto-video{
     background-color: var(--blanco);
