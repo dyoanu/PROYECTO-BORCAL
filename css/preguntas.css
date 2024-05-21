@@ -90,7 +90,11 @@ main{
   
   @media screen and (max-width: 400px) {
 
+    #td2{
+      width: 50px;
+    }
+
     #certificados{
-      margin-left: 1%;
+      margin-left: 5%;
     }
   }
