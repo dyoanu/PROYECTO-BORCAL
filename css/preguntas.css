@@ -14,7 +14,7 @@ main{
   
   .pregunta-card {
     width: 70%;
-    min-width: 400px;
+    min-width: 370px;
     /* height: 300px; */
     background-color: var(--negro);
     border-radius: 5px;
