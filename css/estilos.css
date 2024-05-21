@@ -64,7 +64,7 @@ nav{
 
 main{
     background-color: var(--negro);
-    background-image: url(../img/Fondos/negro\ 2.jpg);
+    background-image: url(../img/Fondos/negro2.jpg);
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height:100%;
@@ -85,10 +85,8 @@ main{
 
 }
 
-
-
 #banner{
-    background-image: url(../img/APAISADA.jpg);
+    background-image: url("../img/APAISADA.jpg");
     background-size: cover;
     height: 400px;
     color: var(--amarillo);

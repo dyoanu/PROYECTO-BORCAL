@@ -7,6 +7,10 @@ function anioActual(){
    window.history.back();
  }
 
+ function cambiarCursor(event, estilo) {
+   event.target.style.cursor = estilo;
+ }
+
  function escribirMenu(){
   document.write("<nav><section id='tabla-header'>")
   document.write("<a href='./index.html'><button class='boton' >INICIO</button></a>")

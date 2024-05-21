@@ -16,6 +16,8 @@ let nombre = id("nombre"),
 
 let estaBien = true;  // Indica si pasa los requisitos
 
+let sePuedeEnviar = 0;
+
 const requisitoEmail = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
   requisitoNombre = /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
   requisitoTelefono = /^\d{7,14}$/;
@@ -65,14 +67,44 @@ let validar = (id, orden, message) => {    // valida qué campo, el orden para m
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();   // evita mandar formulario sin datos
-
+  sePuedeEnviar = 0;   // pone en 0 la variable que va a controlar cuántos campos están ok
   validar(nombre, 0, "El nombre no puede estar vacío ni contener números");
+  if (estaBien){
+    sePuedeEnviar += 1;  // si está ok el campo, sumo 1
+  };
   validar(email, 1, "La dirección de correo electrónico no puede estar vacío debe cumplir con el formato correcto");
+  if (estaBien){
+    sePuedeEnviar += 1;
+  };
   validar(telefono, 2, "Debe incluir un teléfono de contacto");
+  if (estaBien){
+    sePuedeEnviar += 1;
+  };
   validar(departamento, 3, "Debe seleccionar el destinatario de su mensaje");
+  if (estaBien){
+    sePuedeEnviar += 1;
+  };
   validar(mensaje, 4, "El mensaje no puede estar vacío");
+  if (estaBien){
+    sePuedeEnviar += 1;
+  };
   validar(archivo, 5, "Debe subir un archivo");
+  if (estaBien){
+    sePuedeEnviar += 1;
+  };
   validar(terminos, 6, "Debe aceptar los términos y condiciones para enviar el formulario");
+  if (estaBien){
+    sePuedeEnviar += 1;
+  };
+
+  if (sePuedeEnviar == 7){    // hay 7 campos en el formulario, si la variable es 7 quiere decir que están todos ok
+    alert("Se envió el formulario");
+    form.reset();    // resetea los campos del formulario
+    for (let icono of successIcon){    // borra todos los íconos de exito
+      icono.style.opacity = "0";
+    }
+    
+  }
 
 });
 

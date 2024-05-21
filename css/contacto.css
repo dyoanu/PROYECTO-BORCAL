@@ -16,7 +16,7 @@ body {
   font-family: sans-serif;
   /* background-color: black; */
   color: var(--blanco);
-  background-image: url(../img/Fondos/negro\ 2_.jpg);
+  background-image: url(../img/Fondos/negro2.jpg);
   /* background-size: cover; */
   background-size: inherit;
 }
@@ -133,12 +133,8 @@ nav{
     flex-direction: column;
     justify-content: center;
     margin: 0 auto 25px auto;
-    /* margin-bottom: 25px; */
-    width: 50%;
-    min-width: 350px;
-    /* max-width: 12px; */
-    /* padding: 50px; */
-    
+     width: 50%;
+    min-width: 350px;  
   }
   
   form div input {
