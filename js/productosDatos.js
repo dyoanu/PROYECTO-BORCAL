@@ -1,4 +1,12 @@
 const paginaUrl = window.location.origin;
+const repositorio = "/PROYECTO-BORCAL"
+let usarUrl = "";
+
+if (paginaUrl.includes('127.0.')){
+    usarUrl = ".";
+    }else{
+        usarUrl = paginaUrl + repositorio;
+}
 
 let datos = [
     {
@@ -9,7 +17,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/Productos/art.9222P.01.png",
+        "imagen":  usarUrl + "/img/Productos/art.9222P.01.png",
         "cat" : "1"
     },
 
@@ -21,7 +29,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/Productos/art.9222P.02.png",
+        "imagen": usarUrl + "/img/Productos/art.9222P.02.png",
         "cat" : "1"
     },
 
@@ -33,7 +41,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/Productos/art.9422F.01.png",
+        "imagen": usarUrl + "/img/Productos/art.9422F.01.png",
         "cat" : "1"
     },
 
@@ -45,7 +53,7 @@ let datos = [
         "tilde3" : " Lengueta: en vacuno, con fuelle, forrada y acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/Productos/art.9422F.02.png",
+        "imagen": usarUrl + "/img/Productos/art.9422F.02.png",
         "cat" : "1"
     },
 
@@ -57,7 +65,7 @@ let datos = [
         "tilde3" : " Lengueta: en Sintético, con fuelle, sin forrar no acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/Productos/art.7222.01.png",
+        "imagen": usarUrl + "/img/Productos/art.7222.01.png",
         "cat" : "2"
     },
 
@@ -69,7 +77,7 @@ let datos = [
         "tilde3" : " Lengueta: en Sintético, con fuelle, sin forrar no acolchada.",
         "tilde4" : " Plantilla: antimicótica, antimicrobiana, de espuma de latex.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/Productos/art.7422.01.png",
+        "imagen": usarUrl + "/img/Productos/art.7422.01.png",
         "cat" : "2"
     },
 
@@ -81,7 +89,7 @@ let datos = [
         "tilde3" : " Lengueta: textil alta performance, forrada y acolchada.",
         "tilde4" : " Plantilla: termoconformada, dibujo irregular con efecto relajante.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/Productos/art.Flex-Z100.01.jpg",
+        "imagen": usarUrl + "/img/Productos/art.Flex-Z100.01.jpg",
         "cat" : "3"
     },
 
@@ -93,8 +101,8 @@ let datos = [
         "tilde3" : " Lengueta: textil alta performance, forrada y acolchada.",
         "tilde4" : " Plantilla: termoconformada, dibujo irregular con efecto relajante.",
         "tilde5" : " Numeración: 35 al 47.",
-        "imagen": paginaUrl + "/PROYECTO-BORCAL/img/Productos/art.Flex-Z100.02.jpg",
+        "imagen": usarUrl + "/img/Productos/art.Flex-Z100.02.jpg",
         "cat" : "3"
     },
 
-] 
+]; 

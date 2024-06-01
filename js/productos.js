@@ -5,7 +5,6 @@ let listadoProductosC = ``
 
 // Recorrer los datos y sacar la información
 for(let elemento of datos){
-
     // Separar los productos por categoría
     switch (elemento.cat){
 
@@ -78,7 +77,7 @@ for(let elemento of datos){
         default:
             break;
     }
-
+    
 
 }
 
